@@ -10,11 +10,11 @@ def monopoly
 	monopoly = {
 	  :railroads => {
 	    :pieces => 4,
-	    :names => {},
+	    :names => {:},
 	    :rent_in_dollars => {:one_piece_owned => 25,
-	      :two_piece_owned => 50,
-	      :three_piece_owned => 100,
-	      :four_piece_owned => 200
+	      :two_pieces_owned => 50,
+	      :three_pieces_owned => 100,
+	      :four_pieces_owned => 200
 	    }
 	  }
 	}
